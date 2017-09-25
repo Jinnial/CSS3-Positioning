@@ -58,7 +58,8 @@ footer {
 
 footer p {
   margin-bottom: .25rem;
-
+}
+  
 #relative {
   position:relative;
   text-align: center;
@@ -66,7 +67,8 @@ footer p {
 
 #relativeCode {
   position: relative;
-
+}
+  
 #relativeCode {
   background-color: lightgrey;
   border-radius: 25px 25px 25px 25px;
@@ -98,4 +100,3 @@ footer p {
 .text-align{
   text-align: left  !important;
 }
-
