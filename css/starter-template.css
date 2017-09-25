@@ -58,9 +58,7 @@ footer {
 
 footer p {
   margin-bottom: .25rem;
-}
 
-<<<<<<< Updated upstream
 #relative {
   position:relative;
   text-align: center;
@@ -68,9 +66,8 @@ footer p {
 
 #relativeCode {
   position: relative;
-=======
+
 #relativeCode {
->>>>>>> Stashed changes
   background-color: lightgrey;
   border-radius: 25px 25px 25px 25px;
   width: 450px;
@@ -81,8 +78,7 @@ footer p {
   position: relative;
   right:35px;
 }
-
-<<<<<<< Updated upstream
+  
 .relative {
     position: relative;
     width: 400px;
@@ -98,8 +94,8 @@ footer p {
     height: 100px;
     border: 3px solid #73AD21;
 }
-=======
+
 .text-align{
   text-align: left  !important;
 }
->>>>>>> Stashed changes
+
