@@ -72,21 +72,38 @@
       <p>
         The relative tag is used when you are positioning a page element relative to it's normal/original position.
       </p>
-      <pre id="relativeCode">
-        <code id="code">
-          #relative {
-            position:relative;
-            text-align: center;
-          }
+      <pre id="relativeCode" class="text-center">
+            <p class="p-3 text-center"><em><strong>NOTE:</strong></em> Bootstrap 4 allows for easier coding of positions. If using B4 all you have to
+                do is add <code>sticky-top</code> as a class name.</p>
+        </div>
 
+        <div class="starter-template">
+            <h1 class="text-center">Absolute Example</h1>
+            <p class="lead">By default an element is positioned based on where it is placed in the code. With position absolute it is positioned
+                closest as possible to its nearest ancestor.</p>
+            <div class="relative">
+                <p>This element is relative</p>
+                <div class="absolute">
+                    <p>This element is absolute.</p>
+                </div>
+            </div>
+            
+        </div>
+
+        <div id="relative"></div>
+        <h3>
+            Relative
+        </h3>
+        <p>
+            The relative tag is used when you are positioning a page element relative to it's normal/original position.
+        </p>
+        <pre id="relativeCode">
+        <code id="code">
           #relativeCode {
-            position: relative;
-            left: 375px;
             background-color: lightgrey;
             border-radius: 25px 25px 25px 25px;
-            text-align:center;
-            width: 350px;
-            height:250px;
+            width: 450px;
+            height:300px;
           }
 
           #code {
@@ -95,10 +112,43 @@
           }
         </code>
       </pre>
+      <p>
+        This code in this snippet was moved 35px from the right by using the relative positioning.
+      </p>
     </div>
+
+    <div id="fixed">
+      <h3>
+        Relative
+      </h3>
+      <p>
+        The relative tag is used when you are positioning a page element relative to it's normal/original position.
+      </p>
+      <pre id="fixedCode" class="text-center">
+        <code id="code">
+          #relativeCode {
+            background-color: lightgrey;
+            border-radius: 25px 25px 25px 25px;
+            width: 450px;
+            height:300px;
+          }
+
+          #code {
+            position: relative;
+            right:35px;
+          }
+        </code>
+      </pre>
+      <p>
+        This code in this snippet was moved 35px from the right by using the relative positioning.
+      </p>
+    </div>
+
 
   </div>
   <!-- /.container -->
+    </div>
+    <!-- /.container -->
 
 
   <!-- Bootstrap core JavaScript
