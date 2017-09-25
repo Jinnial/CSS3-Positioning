@@ -60,3 +60,23 @@ footer {
 footer p {
   margin-bottom: .25rem;
 }
+
+#relative {
+  position:relative;
+  text-align: center;
+}
+
+#relativeCode {
+  position: relative;
+  left: 375px;
+  background-color: lightgrey;
+  border-radius: 25px 25px 25px 25px;
+  text-align:center;
+  width: 500px;
+  height:650px;
+}
+
+#code {
+  position: relative;
+  right:35px;
+}
