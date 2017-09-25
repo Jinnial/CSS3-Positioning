@@ -3,7 +3,6 @@ body {
 }
 .starter-template {
   padding: 3rem 1.5rem;
-  text-align: center;
 }
 
 .navbar {
@@ -59,4 +58,8 @@ footer {
 
 footer p {
   margin-bottom: .25rem;
+}
+
+.text-align{
+  text-align: left  !important;
 }
