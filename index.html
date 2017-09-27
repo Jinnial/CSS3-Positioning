@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/starter-template.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 py-4">
+                    <h4 class="text-white">Assignment Details</h4>
+                    <p class="text-muted">In your groups, research the topic you have been given. Be prepared to explain your topic to the class
+                        and prepare a demo which demonstrates your topic. Next class period you will teach the class your
+                        topic, and walk through the demo you have prepare. Each presentation will be held to a 20 minute
+                        max time limit so that we can get all 5 groups presented on Wednesday.
+                    </p>
+                </div>
+                <div class="col-sm-4 py-4">
+                    <h4 class="text-white">Team Members</h4>
+                    <ul class="list-unstyled">
+                        <li class="text-white">Brenden Reeves</li>
+                        <li class="text-white">Nick Manning</li>
+                        <li class="text-white">Austin Farrand</li>
+                        <li class="text-white">Miranda McCoy</li>
+                        <li class="text-white">Micah Castillo</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark">
+        <div class="container d-flex justify-content-between">
+            <a href="#" class="navbar-brand">Positioning Presentation</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="starter-template ">
+            <h1 class="sticky-top text-center">Sticky Example</h1>
+            <p class="lead">The header of this section is a stick. As such, the element will be bound to the top edge of the screen until
+                the end of the div it is contained it. It also only fixes itself to the edge when scrolled past.</p>
+            <code>
+        .sticky { <br>
+          position: -webkit-sticky; /* For Safari Only */ <br>
+          position: sticky; <br>
+          top: 0; <br>
+        }</code>
+            <p class="p-3 text-center"><em><strong>NOTE:</strong></em> Bootstrap 4 allows for easier coding of positions. If using B4 all you have to
+                do is add <code>sticky-top</code> as a class name.</p>
+        </div>
+        <div class="starter-template">
+            <h1 class="text-center">Absolute Example</h1>
+            <p class="lead">By default an element is positioned based on where it is placed in the code. With position absolute it is positioned
+                closest as possible to its nearest ancestor.</p>
+            <div class="relative">
+                <p>This element is relative</p>
+                <div class="absolute">
+                    <p>This element is absolute.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="relative"></div>
+        <h3>
+            Relative
+        </h3>
+        <p>
+            The relative tag is used when you are positioning a page element relative to it's normal/original position.
+        </p>
+        <pre id="CodeBox1">
+        <code id="code">
+          #CodeBox1 {
+            background-color: lightgrey;
+            border-radius: 25px 25px 25px 25px;
+            width: 450px;
+            height:300px;
+          }
+
+          #code {
+            position: relative;
+            right:35px;
+          }
+        </code>
+      </pre>
+        <p>
+            This code in this snippet was moved 35px from the right by using the relative positioning.
+        </p>
+        <div id="fixed" class="text-align">
+            <h3>
+                Fixed
+            </h3>
+            <p>
+                The fixed tag is used to position a page element by positioning it relative to the browser window itself.
+            </p>
+            <pre id="CodeBox2" class="text-align">
+        <code id="code">
+            .fixeddiv {
+              position: fixed;
+              top:300px;
+              right: 50px;
+            }
+        </code>
+      </pre>
+            <p>
+                This code in this snippet would move a div named fixeddiv 300 pixels from the top and 50 pixels from the right relative of
+                the current browser window.
+            </p>
+        </div>
+        <div id="static" class="text-align">
+            <h3>
+                Static
+            </h3>
+            <p>
+                The static tag is used to render a page element in the order it is put in the html file. No special positioning is used.
+            </p>
+            <pre id="CodeBox3" class="text-align">
+      <code id="code">
+          .staticdiv {
+            position: static;
+          }
+      </code>
+    </pre>
+            <p>
+                This code in this snippet would be rendered in the order the staticdiv was put in the html file.
+            </p>
+        </div>
+    </div>
+    </div>
+    <!-- /.container -->
+    </div>
+    <!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+    </script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/holder.min.js"></script>
+    <script>
+        $(function () {
+            Holder.addTheme("thumb", {
+                background: "#55595c",
+                foreground: "#eceeef",
+                text: "Thumbnail"
+            });
+        });
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+</body>
+
+</html>
